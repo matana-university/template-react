@@ -1,0 +1,277 @@
+# =====================================================
+# DEPENDENCIES & NODE
+# =====================================================
+/node_modules
+node_modules/
+/.pnp
+.pnp
+.pnp.js
+*.pnp
+pnpm-store/
+npm-cache/
+yarn-cache/
+
+# =====================================================
+# BUILD & DIST
+# =====================================================
+/dist
+/build
+/.next
+/out
+/vercel
+.next/
+.vercel/
+build/
+out/
+*.tsbuildinfo
+
+# =====================================================
+# LOGS
+# =====================================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# =====================================================
+# OS FILES
+# =====================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.AppleDouble
+.LSOverride
+
+# =====================================================
+# ENVIRONMENT & SECRETS
+# =====================================================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.backup
+.env.example.local
+*.pem
+secrets.json
+credentials.json
+
+# =====================================================
+# IDE & EDITORS
+# =====================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+.vscode-test
+.netrc
+.code-workspace
+launch.json
+settings.json
+extensions.json
+.jetbrains.codestyles.xml
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+out/
+
+# =====================================================
+# CACHE
+# =====================================================
+/.parcel-cache
+/.cache
+/.eslintcache
+.turbo/
+.turbo
+.eslintcache
+.stylelintcache
+.cache/
+
+# =====================================================
+# TESTING
+# =====================================================
+/coverage
+.nyc_output
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# =====================================================
+# STORYBOOK
+# =====================================================
+/storybook-static
+
+# =====================================================
+# TEMPORARY & BACKUP FILES
+# =====================================================
+*.tmp
+*.temp
+tmp/
+temp/
+*.bak
+*.backup
+*~
+.#*
+
+# =====================================================
+# VITE & BUILD TOOLS
+# =====================================================
+vite.config.ts.timestamp*
+pnpm-workspace.yaml
+dist-ssr/
+
+# =====================================================
+# PACKAGE MANAGERS
+# =====================================================
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+pnpm-lock.yaml
+
+# =====================================================
+# JAVA & BUILD FILES
+# =====================================================
+.gradle
+.gradle/
+build/
+*.class
+*.jar
+*.war
+*.ear
+target/
+.factorypath
+
+# =====================================================
+# PYTHON
+# =====================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# =====================================================
+# RUBY & BUNDLER
+# =====================================================
+.bundle/
+.ruby-version
+Gemfile.lock
+
+# =====================================================
+# GO
+# =====================================================
+vendor/
+go.sum
+
+# =====================================================
+# RUST
+# =====================================================
+target/
+Cargo.lock
+
+# =====================================================
+# PHP
+# =====================================================
+/vendor/
+.phpstorm.meta.php
+_ide_helper.php
+
+# =====================================================
+# DATABASE
+# =====================================================
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+
+# =====================================================
+# DOCKER
+# =====================================================
+.dockerignore
+docker-compose.override.yml
+
+# =====================================================
+# GIT & VERSION CONTROL
+# =====================================================
+.git/
+.gitmodules
+.svn/
+.hg/
+.fossil-settings/
+.bazaar/
+_darcs/
+.pijul/
+.jj/
+
+# =====================================================
+# CI/CD
+# =====================================================
+.circleci/
+.travis/
+.gitlab-ci.yml
+
+# =====================================================
+# NETLIFY & HOSTING
+# =====================================================
+.netlify
+.vercel
+.env.*.example
+
+# =====================================================
+# MISCELLANEOUS
+# =====================================================
+*.swp
+.idea
+.vscode
+.DS_Store
+node_modules
+npm-debug.log
+.firebase
+.firebaserc
+firebase-debug.log
+.env.local.backup
+.aws/
+.ssh/
+vite.config.js.timestamp*
